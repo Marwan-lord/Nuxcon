@@ -2,9 +2,10 @@
 {
   imports = [
     ./modules/default.nix
+    ./modules/home/stylix.nix
   ];
 
-  nix-ld.enable = false;
+  nix-ld.enable = true;
   fonts.enable = true;
   plasma.enable = false;
   intel.enable = true;
@@ -42,15 +43,16 @@
     gdb
     bacon
     lazygit
-    qalculate-qt
+    qalculate-gtk
     nixd
     astyle
-    wezterm
     p7zip
     unzip
     home-manager
     mupdf
     libnotify
   ];
+
+  services.upower.enable = true;
   system.stateVersion = "25.05";
 }

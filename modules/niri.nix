@@ -57,4 +57,7 @@
   };
 
   services.displayManager.ly.enable = true;
+  services.dbus.enable = true;
+  services.gvfs.enable = true;
+
 }

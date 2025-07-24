@@ -13,14 +13,15 @@
   };
 
   config = lib.mkIf config.fonts.enable {
-    fonts.packages = [
-      pkgs.nerd-fonts.fira-code
-      pkgs.nerd-fonts.blex-mono
-      pkgs.nerd-fonts.jetbrains-mono
-      pkgs.nerd-fonts.ubuntu-mono
-      pkgs.ubuntu-sans
-      pkgs.nerd-fonts._0xproto
-      pkgs.nerd-fonts.im-writing
+    fonts.packages = with pkgs; [
+      nerd-fonts.fira-code
+      nerd-fonts.blex-mono
+      nerd-fonts.jetbrains-mono
+      nerd-fonts.ubuntu-mono
+      ubuntu-sans
+      nerd-fonts._0xproto
+      ibm-plex
+      nerd-fonts.im-writing
     ];
   };
 

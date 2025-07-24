@@ -16,6 +16,7 @@
       tree
       rust-analyzer
       brave
+      krita
     ];
   };
 

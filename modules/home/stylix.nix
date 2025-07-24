@@ -1,16 +1,16 @@
 { pkgs, ... }:
 {
 
+  # stylix.targets.helix.enable = false;
   stylix.enable = true;
-  stylix.base16Scheme = "${pkgs.base16-schemes}/share/themes/gruvbox-light.yaml";
-  stylix.image = ../wallpapers/mountinview.jpg;
-  stylix.polarity = "light";
+  stylix.base16Scheme = "${pkgs.base16-schemes}/share/themes/gruvbox-dark.yaml";
+  stylix.image = ../../wallpapers/Dragon.jpg;
 
   stylix.fonts = {
-    sizes.terminal = 14;
+    sizes.terminal = 13;
     monospace = {
-      package = pkgs.nerd-fonts.blex-mono;
-      name = "BlexMono Nerd Font";
+      package = pkgs.ibm-plex;
+      name = "IBM Plex Mono";
     };
 
     serif = {

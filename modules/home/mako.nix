@@ -9,7 +9,7 @@
       anchor = "top-center";
       width = 300;
       padding = "10";
-      border-size = 2;
+      border-size = 1;
       border-radius = 16;
       icons = true;
       default-timeout = 5000;

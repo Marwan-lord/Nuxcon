@@ -2,6 +2,8 @@
 
 {
   programs.helix.enable = true;
+
+  stylix.targets.helix.enable = false;
   programs.helix.settings = {
 
     keys.normal = {
@@ -12,7 +14,7 @@
         "keep_primary_selection"
       ];
     };
-    theme = "acme";
+    theme = "gruvbox";
     editor = {
       line-number = "relative";
       lsp.display-messages = true;

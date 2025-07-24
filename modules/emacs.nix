@@ -13,12 +13,7 @@
   config = lib.mkIf config.emacs.enable {
     services.emacs = {
       enable = true;
-      package = pkgs.emacs-gtk;
+      package = pkgs.emacs-pgtk;
     };
-
-    environment.systemPackages = with pkgs; [
-      ((emacsPackagesFor emacsNativeComp).emacsWithPackages (epkgs: [ epkgs.vterm ]))
-
-    ];
   };
 }
