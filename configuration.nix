@@ -10,6 +10,7 @@
   plasma.enable = false;
   intel.enable = true;
   emacs.enable = false;
+  niri.enable = true;
 
   networking.hostName = "nixos";
 
@@ -17,8 +18,6 @@
     "nix-command"
     "flakes"
   ];
-
-  hardware.bluetooth.enable = true;
 
   environment.systemPackages = with pkgs; [
     vim
@@ -49,8 +48,6 @@
     p7zip
     unzip
     home-manager
-    mupdf
-    libnotify
   ];
 
   services.upower.enable = true;

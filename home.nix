@@ -11,6 +11,8 @@
     ./modules/home/foot.nix
     ./modules/home/zathura.nix
     ./modules/home/hyprlock.nix
+    ./modules/home/nu.nix
+    ./modules/home/starship.nix
 
   ];
 
@@ -20,17 +22,6 @@
 
   home.packages = with pkgs; [
     sbcl
-    fuzzel
-    pavucontrol
-    brightnessctl
-    pw-volume
-    mpv
-    nautilus
-    qview
-    swww
-    nwg-look
-    musicpod
-    waybar
   ];
 
   home.file = { };
