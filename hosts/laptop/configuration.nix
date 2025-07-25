@@ -43,7 +43,6 @@
     gdb
     bacon
     lazygit
-    qalculate-gtk
     nixd
     astyle
     p7zip

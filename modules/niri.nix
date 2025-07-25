@@ -68,6 +68,7 @@
       musicpod
       waybar
       libnotify
+      qalculate-gtk
     ];
 
     programs = {
