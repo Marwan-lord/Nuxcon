@@ -2,7 +2,6 @@
 
 {
   imports = [
-    ./hardware.nix
     ./audio.nix
     ./locale.nix
     ./session.nix

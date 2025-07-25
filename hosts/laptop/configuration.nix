@@ -1,8 +1,9 @@
 { pkgs, ... }:
 {
   imports = [
-    ./modules/default.nix
-    ./modules/home/stylix.nix
+    ../../modules/default.nix
+    ../../modules/home/stylix.nix
+    ./hardware.nix
   ];
 
   nix-ld.enable = true;

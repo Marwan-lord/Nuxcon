@@ -3,17 +3,7 @@
 {
 
   imports = [
-    ./modules/home/helix.nix
-    ./modules/home/bat.nix
-    ./modules/home/bash.nix
-    ./modules/home/fuzzel.nix
-    ./modules/home/mako.nix
-    ./modules/home/foot.nix
-    ./modules/home/zathura.nix
-    ./modules/home/hyprlock.nix
-    ./modules/home/nu.nix
-    ./modules/home/starship.nix
-
+    ./modules/home/default.nix
   ];
 
   home.username = "marwan";
@@ -22,6 +12,7 @@
 
   home.packages = with pkgs; [
     sbcl
+    nemo
   ];
 
   home.file = { };

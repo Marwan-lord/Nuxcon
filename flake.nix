@@ -25,7 +25,7 @@
       nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
         specialArgs = { inherit inputs outputs; };
         modules = [
-          ./configuration.nix
+          ./hosts/laptop/configuration.nix
           stylix.nixosModules.stylix
         ];
       };
