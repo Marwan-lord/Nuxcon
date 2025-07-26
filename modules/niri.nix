@@ -68,6 +68,7 @@
       waybar
       libnotify
       qalculate-gtk
+      nautilus
     ];
 
     programs = {
