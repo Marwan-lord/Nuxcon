@@ -14,5 +14,6 @@
     ./nu.nix
     ./starship.nix
     ./waybar/waybar.nix
+    ./rofi/rofi.nix
   ];
 }

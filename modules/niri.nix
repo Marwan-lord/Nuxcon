@@ -56,7 +56,6 @@
       wofi-power-menu
       xwayland-satellite
 
-      fuzzel
       pavucontrol
       brightnessctl
       pw-volume

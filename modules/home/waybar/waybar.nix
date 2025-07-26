@@ -12,6 +12,7 @@
   };
 
   config = lib.mkIf config.home.waybar.enable {
+    stylix.targets.waybar.enable = false;
     programs.waybar.enable = true;
 
     programs.waybar.settings = {
@@ -433,6 +434,6 @@
         };
       };
     };
-    programs.waybar.style = lib.mkForce ./style.css;
+    programs.waybar.style = ./style.css;
   };
 }
