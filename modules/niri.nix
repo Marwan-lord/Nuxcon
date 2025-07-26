@@ -65,7 +65,6 @@
       swww
       nwg-look
       musicpod
-      waybar
       libnotify
       qalculate-gtk
       nautilus

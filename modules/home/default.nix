@@ -13,5 +13,6 @@
     ./hyprlock.nix
     ./nu.nix
     ./starship.nix
+    ./waybar/waybar.nix
   ];
 }

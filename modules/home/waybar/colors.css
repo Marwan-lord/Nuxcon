@@ -1,0 +1,22 @@
+/* Gruvbox Dark palette */
+
+@define-color background #282828;
+@define-color foreground #ebdbb2;
+
+/* Standard 16 Gruvbox colors */
+@define-color color0  #282828; /* dark0 */
+@define-color color1  #cc241d; /* red */
+@define-color color2  #98971a; /* green */
+@define-color color3  #d79921; /* yellow */
+@define-color color4  #458588; /* blue */
+@define-color color5  #b16286; /* purple */
+@define-color color6  #689d6a; /* aqua */
+@define-color color7  #a89984; /* light4 */
+@define-color color8  #928374; /* dark4 */
+@define-color color9  #fb4934; /* bright red */
+@define-color color10 #b8bb26; /* bright green */
+@define-color color11 #98971a; /* bright yellow */
+@define-color color12 #83a598; /* bright blue */
+@define-color color13 #d3869b; /* bright purple */
+@define-color color14 #8ec07c; /* bright aqua */
+@define-color color15 #ebdbb2; /* light1 */
