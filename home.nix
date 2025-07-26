@@ -12,7 +12,7 @@
 
   home.packages = with pkgs; [
     sbcl
-    nemo
+    kdePackages.kate
   ];
 
   home.file = { };

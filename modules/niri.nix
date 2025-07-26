@@ -61,7 +61,6 @@
       brightnessctl
       pw-volume
       mpv
-      nautilus
       qview
       swww
       nwg-look

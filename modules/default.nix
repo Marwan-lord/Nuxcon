@@ -14,5 +14,6 @@
     ./plasma.nix
     ./emacs.nix
     ./niri.nix
+    ./thunar.nix
   ];
 }
