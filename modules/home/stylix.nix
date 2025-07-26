@@ -1,26 +1,37 @@
-{ pkgs, ... }:
+{
+  lib,
+  config,
+  pkgs,
+  ...
+}:
 {
 
-  # stylix.targets.helix.enable = false;
-  stylix.enable = true;
-  stylix.base16Scheme = "${pkgs.base16-schemes}/share/themes/gruvbox-dark.yaml";
-  stylix.image = ../../wallpapers/Dragon.jpg;
+  options = {
 
-  stylix.fonts = {
-    sizes.terminal = 13;
-    monospace = {
-      package = pkgs.ibm-plex;
-      name = "IBM Plex Mono";
-    };
+    home.stylix.enable = lib.mkEnableOption "enables stylix";
+  };
 
-    serif = {
-      package = pkgs.dejavu_fonts;
-      name = "DejaVu Serif";
-    };
+  config = lib.mkIf config.niri.enable {
+    stylix.enable = true;
+    stylix.base16Scheme = "${pkgs.base16-schemes}/share/themes/gruvbox-dark.yaml";
+    stylix.image = ../../wallpapers/Dragon.jpg;
 
-    sansSerif = {
-      package = pkgs.ubuntu-sans;
-      name = "Ubuntu Sans";
+    stylix.fonts = {
+      sizes.terminal = 13;
+      monospace = {
+        package = pkgs.ibm-plex;
+        name = "IBM Plex Mono";
+      };
+
+      serif = {
+        package = pkgs.dejavu_fonts;
+        name = "DejaVu Serif";
+      };
+
+      sansSerif = {
+        package = pkgs.ubuntu-sans;
+        name = "Ubuntu Sans";
+      };
     };
   };
 }
