@@ -11,7 +11,7 @@
     home.waybar.enable = lib.mkEnableOption "Enables waybar";
   };
 
-  config = lib.mkIf config.niri.enable {
+  config = lib.mkIf config.home.waybar.enable {
     programs.waybar.enable = true;
 
     programs.waybar.settings = {

@@ -5,7 +5,7 @@
 
   };
 
-  config = lib.mkIf config.niri.enable {
+  config = lib.mkIf config.home.mako.enable {
     services.mako = {
       enable = true;
       settings = {

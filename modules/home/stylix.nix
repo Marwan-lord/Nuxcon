@@ -7,11 +7,10 @@
 {
 
   options = {
-
     home.stylix.enable = lib.mkEnableOption "enables stylix";
   };
 
-  config = lib.mkIf config.niri.enable {
+  config = lib.mkIf config.home.stylix.enable {
     stylix.enable = true;
     stylix.base16Scheme = "${pkgs.base16-schemes}/share/themes/gruvbox-dark.yaml";
     stylix.image = ../../wallpapers/Dragon.jpg;

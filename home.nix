@@ -12,6 +12,10 @@
 
   home.nu.enable = true;
   home.helix.enable = true;
+  home.waybar.enable = true;
+  home.mako.enable = true;
+  home.fuzzel.enable = true;
+  home.stylix.enable = true;
 
   home.packages = with pkgs; [
     sbcl

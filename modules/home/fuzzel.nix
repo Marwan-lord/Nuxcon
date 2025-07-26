@@ -10,7 +10,7 @@
     home.fuzzel.enable = lib.mkEnableOption "Enables fuzzel";
   };
 
-  config = lib.mkIf config.niri.enable {
+  config = lib.mkIf config.home.fuzzel.enable {
     programs.fuzzel.enable = true;
     programs.fuzzel.settings = {
       main = {
