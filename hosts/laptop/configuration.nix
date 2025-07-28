@@ -20,6 +20,8 @@
     "flakes"
   ];
 
+  programs.nh.enable = true;
+
   environment.systemPackages = with pkgs; [
     vim
     wget
@@ -32,13 +34,11 @@
     cargo
     rustfmt
     clippy
-    nh
     nixfmt-rfc-style
     lf
     git
     gnumake
     cmake
-    bat
     htop
     gdb
     bacon

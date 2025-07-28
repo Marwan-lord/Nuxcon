@@ -1,6 +1,5 @@
 { ... }:
 {
-
   programs.bash = {
     enable = true;
     shellAliases = {
@@ -9,5 +8,4 @@
       x = "hx";
     };
   };
-
 }
