@@ -34,7 +34,7 @@
         pkgs = nixpkgs.legacyPackages.x86_64-linux;
         modules = [
           stylix.homeModules.stylix
-          ./hosts/laptop/home.nix
+          ./home.nix
           ./modules/home/stylix.nix
         ];
       };

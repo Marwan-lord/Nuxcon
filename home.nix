@@ -3,7 +3,7 @@
 {
 
   imports = [
-    ../../modules/home/default.nix
+    ./modules/home/default.nix
   ];
 
   home.username = "marwan";
@@ -15,12 +15,10 @@
   home.waybar.enable = true;
   home.mako.enable = true;
   home.fuzzel.enable = false;
-  home.stylix.enable = true;
   home.rofi.enable = true;
 
   home.packages = with pkgs; [
     sbcl
-    kdePackages.kate
   ];
 
   home.file = { };

@@ -35,7 +35,6 @@
     rustfmt
     clippy
     nixfmt-rfc-style
-    lf
     git
     gnumake
     cmake
