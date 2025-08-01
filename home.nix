@@ -19,6 +19,7 @@
 
   home.packages = with pkgs; [
     sbcl
+    kdePackages.kate
   ];
 
   home.file = { };

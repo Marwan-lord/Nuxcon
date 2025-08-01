@@ -5,8 +5,9 @@
 {
 
   stylix.enable = true;
-  stylix.base16Scheme = "${pkgs.base16-schemes}/share/themes/gruvbox-dark.yaml";
-  stylix.image = ../../wallpapers/Dragon.jpg;
+  stylix.base16Scheme = "${pkgs.base16-schemes}/share/themes/caroline.yaml";
+  stylix.image = ../../wallpapers/smoldring-lake.png;
+  stylix.polarity = "dark";
 
   stylix.fonts = {
     sizes.terminal = 13;

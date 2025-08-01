@@ -9,7 +9,7 @@
   config = lib.mkIf config.home.helix.enable {
     programs.helix.enable = true;
 
-    stylix.targets.helix.enable = false;
+    # stylix.targets.helix.enable = false;
     programs.helix.settings = {
 
       keys.normal = {
@@ -20,7 +20,7 @@
           "keep_primary_selection"
         ];
       };
-      theme = "gruvbox";
+      # theme = "gruvbox";
       editor = {
         line-number = "relative";
         lsp.display-messages = true;

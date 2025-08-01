@@ -20,7 +20,7 @@
         show-icons = true;
         font = "IBM Plex Mono 11";
       };
-      theme = ./gruvbox-material.rasi;
+      theme = ./caroline.rasi;
     };
   };
 }
