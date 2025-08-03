@@ -10,7 +10,7 @@
   stylix.polarity = "dark";
 
   stylix.fonts = {
-    sizes.terminal = 13;
+    sizes.terminal = 12;
     monospace = {
       package = pkgs.ibm-plex;
       name = "IBM Plex Mono";

@@ -60,13 +60,13 @@
       brightnessctl
       pw-volume
       mpv
-      qview
       swww
       nwg-look
       musicpod
       libnotify
       qalculate-gtk
       nautilus
+      xfce.ristretto
     ];
 
     programs = {
