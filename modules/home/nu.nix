@@ -32,7 +32,7 @@
              }
           } 
           $env.config.edit_mode = 'vi'
-          $env.config.table.mode = 'psql'
+          $env.config.table.mode = 'compact'
           $env.PATH = ($env.PATH | 
                         split row (char esep) |
                         prepend /home/myuser/.apps |

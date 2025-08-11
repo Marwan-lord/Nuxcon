@@ -23,6 +23,7 @@
   programs.nh.enable = true;
 
   environment.systemPackages = with pkgs; [
+    (lib.hiPrio pkgs.uutils-coreutils-noprefix)
     vim
     wget
     helix

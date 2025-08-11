@@ -16,7 +16,7 @@
         width = 300;
         padding = "10";
         border-size = 1;
-        border-radius = 16;
+        border-radius = 0;
         icons = true;
         default-timeout = 5000;
         ignore-timeout = false;
