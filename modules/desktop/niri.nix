@@ -80,6 +80,6 @@
     services.displayManager.ly.enable = true;
     services.dbus.enable = true;
     services.gvfs.enable = true;
-    services.udisk2.enable = true;
+    services.udisks2.enable = true;
   };
 }
